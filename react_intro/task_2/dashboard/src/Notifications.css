@@ -1,6 +1,13 @@
 .Notifications {
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 10px;
+    border: dotted;
+    border-color: red;
+    padding-left: 1rem;
+}
+
+[data-priority="default"] {
+    color: blue;
+}
+
+[data-priority="urgent"] {
+    color: red;
 }
