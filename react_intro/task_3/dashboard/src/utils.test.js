@@ -1,8 +1,8 @@
 import { getFullYear, getFooterCopy, getLatestNotification } from './utils'
 
-describe('year should be equal to 2023', function () {
+describe('year should be equal to 2022', function () {
     it('get the year', function () {
-        var year = 2023;
+        var year = 2022;
         expect(getFullYear()).toBe(year);
     });
 });
